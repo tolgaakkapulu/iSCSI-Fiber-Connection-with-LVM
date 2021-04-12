@@ -18,7 +18,7 @@ lsblk
 	└─3600000e12345678002a0123456780000         253:16   0  64.1T  0 mpath
 ```
 
-**Ex:** As a result of the displayed ID information, the path to be processed becomes definite.
+***Ex:** As a result of the displayed ID information, the path to be processed becomes definite.*
 ```
 Path to Define: /dev/mapper/3600000e12345678002a0123456780000
 ```
@@ -66,7 +66,7 @@ pvcreate /dev/mapper/3600000e12345678002a0123456780000-part1
 	Physical volume "/dev/mapper/3600000e12345678002a0123456780000-part1" successfully created.
 ```	
 
-**NOTE:** **"Device /dev/mapper/3600000e12345678002a0123456780000-part1 excluded by a filter."** If the output is taken, the following command is run and the "pvcreate" process is applied again.
+***NOTE:** **"Device /dev/mapper/3600000e12345678002a0123456780000-part1 excluded by a filter."** If the output is taken, the following command is run and the "pvcreate" process is applied again.*
 ```
 wipefs -a /dev/mapper/3600000e12345678002a0123456780000-part1
 	/dev/mapper/3600000e12345678002a0123456780000-part1: 8 bytes were erased at offset 0x00000200 (gpt): 45 46 49 20 50 41 52 54
@@ -177,7 +177,7 @@ lsblk
 	sdam                                         65:240  0  64.1T  0 disk
 	└─360001234567800000123456789080000         253:16   0  64.1T  0 mpath
 ```		
-**Ex:** As a result of the displayed ID information, the path to be processed becomes definite.
+***Ex:** As a result of the displayed ID information, the path to be processed becomes definite.*
 ```
 Path to be defined: /dev/mapper/360001234567800000123456789080000
 ```
