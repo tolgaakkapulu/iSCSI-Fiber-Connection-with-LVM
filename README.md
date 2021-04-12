@@ -160,7 +160,7 @@ mkdir /data && mount /data && df -h
 In order to detect the disk added in other servers, the disk discovery in the first step should be done on the relevant servers, if no result is obtained, the server should be restarted.
 
 After the server has restarted, the mount process is performed by applying the **'blkid'** and the following steps in the previous heading.
-<br>
+<br><br><br>
 ### Extending the LVM Disk
 
 It is ensured that the newly defined disk is detected.
